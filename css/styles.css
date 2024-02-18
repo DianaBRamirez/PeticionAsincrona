@@ -1,0 +1,30 @@
+#imagenContainer {
+    display: inline-block; 
+    border: 2px solid black; 
+    padding: 20px; 
+    text-align: center; 
+    margin-left: 1%;
+}
+
+#imagenContainer img {
+    max-width: 50%; 
+    height: auto; 
+}
+#cronometro {
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    position: relative; 
+    width: 150px; 
+    height: 150px;
+    line-height: 150px;
+    border: 2px solid #333; 
+    border-radius: 50%; 
+    margin-left: 10%;
+}
+
+#cargarImagenBtn{
+    margin-left: 10.5%;
+}
