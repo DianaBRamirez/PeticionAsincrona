@@ -2,7 +2,7 @@ let startTime;
 let intervalId;
 $(document).ready(function() {
     $("#cargarImagenBtn").click(function() {
-        $("#tiempo").text("0.000");
+        $("#tiempo").text("0.000s");
         // Realizar la solicitud AJAX para obtener la imagen
         $.ajax({
             url: "assets/imagen.png",
@@ -31,5 +31,5 @@ $(document).ready(function() {
 function actualizarCronometro() {
     let currentTime = new Date().getTime();
     let elapsedTime = (currentTime - startTime) / 1000;
-    $("#tiempo").text(`${elapsedTime.toFixed(3)}`);
+    $("#tiempo").text(`${elapsedTime.toFixed(3)} s`);
 }
