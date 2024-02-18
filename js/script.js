@@ -31,5 +31,5 @@ $(document).ready(function() {
 function actualizarCronometro() {
     let currentTime = new Date().getTime();
     let elapsedTime = (currentTime - startTime) / 1000;
-    $("#tiempo").text(`${elapsedTime.toFixed(3)} s`);
+    $("#tiempo").text(`${elapsedTime.toFixed(3)}s`);
 }
